@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Busca CEP</title>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body
+    style="display: flex;align-items: center;justify-content: center; flex-direction: column; background-color: #AFD5AA;">
+
+    <h1 style="background-color: #83C6DD; border-radius: 5px; position: absolute; top: 0; width: 100%; text-align: center;">Busca Dados CEP via AJAX</h1>
+
+    <div style="display:flex; flex-direction: column; align-items: center;">
+        <div style="margin: 25px;">
+            <label>
+                CEP (apenas numeros):
+                <input type="text" id='cep' style="width: 200px; height: 30px; border-radius: 5px;" />
+                <input type="button" value="Busca dados cep" onclick="getCep()" ;
+                    style="width: 100px; height: 30px; border-radius: 5px; background-color: #5db1d1;">
+            </label>
+        </div>
+        <label>JSON</label>
+        <div>
+            <textarea id="json"
+                style="width: 450px; height: 300px;background-color: #5db1d1; font-size: 20px;"></textarea>
+        </div>
+    </div>
+</body>
+<footer style="position: absolute; bottom: 0; background-color: #FFFD96; width: 100%; height: 30px; text-align: center; padding-top: 20px; ">
+    <div><a href="https://www.linkedin.com/in/jones-vh-3464031a6/" target="_blank">Jones Veriato Hoffstetter</a></div>
+</footer>
+
+</html>
